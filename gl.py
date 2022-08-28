@@ -69,7 +69,7 @@ class Renderer(object):
         self.active_texture2 = None
         
         #Light 
-        self.dirLight = V3(-1,0,0)
+        self.dirLight = V3(0,0,-1)
         
         self.glViewMatrix()
         self.glViewport(0,0,self.width, self.height)
